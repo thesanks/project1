@@ -67,6 +67,10 @@ h2 {
     font-size: .9em;
 }
 
+.hero a {
+    color: #5b5676;
+}
+
 .form-control {
     display: block;
     width: 100%;
@@ -100,10 +104,11 @@ h2 {
 }
 
 .vid_button {
-    width: 20px;
-    height: 20px;
+    /* width: 20px;
+    height: 20px; */
     float: left;
     margin-right: 10px;
+    margin-top: 5px;
 }
 
 
@@ -180,7 +185,78 @@ h2 {
 }
 
 
-/* -------------------------------------------------------------- NAVB --- */
+/* ------------------------------------------------------------ EXPLAINER --- */
+
+.explainer {
+    padding: 7em 0;
+    /* border-bottom: 1px solid #f2f7f9; */
+}
+
+.explainer_h1 {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.cards {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.explainer_img {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgh {
+    background-image: url("../img/learn_3.svg");
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 170px;
+    margin-bottom: 3em;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+.imgh.classmates {
+    background-image: url("../img/classmates.svg");
+}
+
+.imgh.altogether {
+    background-image: url("../img/altogether.svg");
+}
+
+.explainer_h5 {
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #5b5676;
+}
+
+.fas {
+    float: left;
+    margin-right: .4em;
+    margin-top: .3em;
+}
+
+.read_more {
+    font-size: .9em;
+}
+
+.explainer a {
+    color: #5b5676;
+    font-weight: 100;
+}
+
+.explainer p {
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
 /* -------------------------------------------------------------- NAVBAR --- */
 /* -------------------------------------------------------------- NAVBAR --- */
 /* -------------------------------------------------------------- NAVBAR --- */
