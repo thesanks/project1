@@ -266,7 +266,7 @@ h2 {
 
 .mobile h2 {
     text-align: center;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .mobile_text {
@@ -288,7 +288,96 @@ h2 {
 
 
 
-/* -------------------------------------------------------------- NAVBAR --- */
-/* -------------------------------------------------------------- NAVBAR --- */
+/* --------------------------------------------------------------- SLIDER --- */
+
+#testimonials {
+    padding: 13em 0 7em 0;
+    border-bottom: 1px solid #f2f7f9;
+}
+
+.slider {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fa-graduation-cap {
+    color: #5b5676;
+    font-size: 3em;
+}
+
+.slider p {
+    font-size: 1.5em;
+    line-height: 1.9em;
+    font-weight: bold;
+    margin-bottom: 2em;
+    /* text-align: center; */
+}
+
+
+.slider img {
+    width: 10%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1em;
+}
+
+p.job_title {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+/* .carousel-control-prev {
+    color: black;
+} */
+
+.carousel-control-prev-icon {
+
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  /* outline: black; */
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3em;
+  color: #5b5676;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3em;
+  color: #5b5676;
+}
+
+/* ----------------------------------------------------------------- SALE --- */
+
+#sale {
+    padding: 12em 0 10em 0;
+    border-bottom: 1px solid #f2f7f9;
+}
+
+.blurb {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.blurb h3 {
+    line-height: 1.4em;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
 /* -------------------------------------------------------------- NAVBAR --- */
 /* -------------------------------------------------------------- NAVBAR --- */
