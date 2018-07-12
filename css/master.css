@@ -188,8 +188,8 @@ h2 {
 /* ------------------------------------------------------------ EXPLAINER --- */
 
 .explainer {
-    padding: 7em 0;
-    /* border-bottom: 1px solid #f2f7f9; */
+    padding: 7em 0 5em 0;
+    border-bottom: 1px solid #f2f7f9;
 }
 
 .explainer_h1 {
@@ -257,7 +257,37 @@ h2 {
 
 
 
-/* -------------------------------------------------------------- NAVBAR --- */
+/* --------------------------------------------------------------- MOBILE --- */
+
+.mobile {
+    padding: 5em 0 4em 0;
+    border-bottom: 1px solid #f2f7f9;
+}
+
+.mobile h2 {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.mobile_text {
+    width: 80%;
+    padding-top: 4em;
+}
+
+.mobile p {
+    margin-bottom: 3em;
+}
+
+.mobtn {
+    width:80%;
+}
+
+.mobile_img {
+    width: 100%;
+}
+
+
+
 /* -------------------------------------------------------------- NAVBAR --- */
 /* -------------------------------------------------------------- NAVBAR --- */
 /* -------------------------------------------------------------- NAVBAR --- */
