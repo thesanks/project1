@@ -87,6 +87,17 @@ h2 {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.form-control:focus {
+    /* color: #495057; */
+    background-color: #fff;
+    border-color: #9b59b6;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(155, 89, 182, 0.3);
+
+}
+
+
+
 .btn-primary {
     color: #fff;
     width: 100%;
@@ -374,10 +385,47 @@ p.job_title {
     margin-bottom: 2em;
 }
 
+/* --------------------------------------------------------------- FOOTER --- */
+
+footer {
+    padding: 5em 0 0 0;
+}
+
+footer ul {
+    list-style: none;
+    font-weight: 100;
+    font-size: .9em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4em;
+}
+
+footer li {
+    margin-bottom: 1em;
+}
+
+.link_head {
+    font-weight: bolder;
+    color: #5b5676;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+}
 
 
+.soc_right {
+    float: right;
+    width: 30%
+}
 
+.social {
+    width: 10%;
+    float: left;
+    margin-left: 3em;
+}
 
+.social_face {
+    display: inline-block;
+    width: 5%;
+    margin-left: 3em;
+}
 
-/* -------------------------------------------------------------- NAVBAR --- */
 /* -------------------------------------------------------------- NAVBAR --- */
