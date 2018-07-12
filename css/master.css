@@ -49,9 +49,15 @@ h2 {
 .btn-outline-success-inverse:hover {
     color: #fff;
     background-color: #5b5676;
-
 }
 
+.modal_btn {
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
 
 /* -------------------------------------------------------------- HERO ----- */
 
