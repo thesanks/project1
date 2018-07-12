@@ -7,6 +7,12 @@ h1 {
     color: #5b5676;
 }
 
+h2 {
+    color: #5b5676;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
 
 
 
@@ -50,7 +56,7 @@ h1 {
 /* -------------------------------------------------------------- HERO ----- */
 
 .hero {
-    padding: 13em 7em;
+    padding: 13em 0;
 }
 
 .hero-text {
@@ -111,6 +117,7 @@ h1 {
 .console {
     background-color: #f2f7f9;
     padding-top: 5em;
+    padding-bottom: 10em;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled).active {
@@ -133,14 +140,43 @@ h1 {
 }
 
 .console-text {
-    padding: 0 1em 0 7.5em;
+    padding: 7em 1em 0 7.5em;
+    width: 85%;
+}
+
+.console_p {
+    line-height: 1.7em;
+    margin-bottom: 2.5em;
+}
+
+.quote {
+    border-left: 5px solid #5b5676;
+    padding: 0 1em;
+    margin-bottom: 1.5em;
+}
+
+.quote_p {
+    font-style: italic;
+    color: #5b5676;
+    font-size: 1em;
+}
+
+.author_p {
+    font-size: .9em;
 }
 
 .quote_author_img {
-  width: 80%;
-  border-radius: 50%;
-  /* float:left;
-  margin-right: 10px; */
+    width: 100%;
+    border-radius: 50%;
+    /* float:left;
+    margin-right: 10px; */
+}
+
+.console_img {
+    /* margin-left: 7em; */
+    -webkit-box-shadow: -1px 0px 25px 4px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 0px 25px 4px rgba(0,0,0,0.15);
+    box-shadow: -1px 0px 25px 4px rgba(0,0,0,0.15);
 }
 
 
